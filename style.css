@@ -14,6 +14,11 @@ hr {
     border: none;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .layout-divider {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
@@ -184,7 +189,6 @@ input {
     width: 40%;
     background: #1179BF;
     color: #FFFFFF;
-    padding: 1em;
 }
 
 .panel__side__title {
@@ -222,4 +226,98 @@ input {
     line-height: 1.5rem; /* 150% */
     letter-spacing: -0.0005rem;
     margin-bottom: 2.25em;
+}
+
+ul.offers {
+    list-style: none;
+	padding-left: 0;
+    margin-bottom: 2.5em;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: -0.0005rem;
+}
+
+ul.offers li {
+    padding-left: 0em;
+	margin-bottom: 1em;
+}
+
+ul.offers svg {
+    margin-right: .5em;
+    align-self: auto;
+    position: relative;
+    top: .3em;
+}
+
+ul.offers span {
+    font-weight: 700;
+}
+
+.option {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: -0.0005rem;
+}
+
+.option span {
+    font-weight: 700;
+}
+
+.option a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0005rem;
+}
+
+.i {
+    font-style: italic;
+}
+
+.panel__side hr {
+    opacity: 0.2005;
+    background: #FFF;
+    height: 0.125rem;
+    flex-shrink: 0;
+    border: none;
+    margin: 2.5em 0;
+}
+
+.review {
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: -0.00056rem;
+}
+
+.review span {
+    font-weight: 700;
+}
+
+.review__img {
+    border-radius: 50%;
+}
+
+.review__name {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0005rem;
+    margin-left: 1em;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
